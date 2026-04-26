@@ -17,7 +17,8 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme, onReset, onSearch, isL
   useEffect(() => {
     const checkHealth = async () => {
       try {
-        const response = await fetch('http://localhost:8000/health');
+        const API_BASE = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+        const response = await fetch(`${API_BASE}/health`);
         setIsHealthy(response.ok);
       } catch {
         setIsHealthy(false);

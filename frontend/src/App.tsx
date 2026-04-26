@@ -128,8 +128,6 @@ export default function App() {
                 key="analysis"
                 analysis={currentAnalysis}
                 isLoading={isLoading}
-                onBack={() => setView('hero')}
-                onNewQuery={(q) => handleVerify(q)}
               />
             )}
           </AnimatePresence>

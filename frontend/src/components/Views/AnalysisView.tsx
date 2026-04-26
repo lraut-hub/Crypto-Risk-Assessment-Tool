@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronLeft, Search } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { motion } from 'framer-motion';
 import RiskAccordion from '../RiskAccordion';
 import type { AnalysisData } from '../../App';
@@ -7,25 +7,14 @@ import type { AnalysisData } from '../../App';
 interface AnalysisViewProps {
   analysis: AnalysisData | null;
   isLoading: boolean;
-  onBack: () => void;
-  onNewQuery: (query: string) => void;
 }
 
-const AnalysisView: React.FC<AnalysisViewProps> = ({ analysis, isLoading, onBack, onNewQuery }) => {
-  const [inputQuery, setInputQuery] = useState('');
+const AnalysisView: React.FC<AnalysisViewProps> = ({ analysis, isLoading }) => {
   const [showExplanation, setShowExplanation] = useState(false);
 
   React.useEffect(() => {
     setShowExplanation(false);
   }, [analysis?.query]);
-
-  const handleSubmit = (e?: React.FormEvent) => {
-    if (e) e.preventDefault();
-    if (inputQuery.trim()) {
-      onNewQuery(inputQuery);
-      setInputQuery('');
-    }
-  };
 
   const getAssetProfile = (rp: Record<string, any> | undefined, query: string) => {
     if (!rp) return null;

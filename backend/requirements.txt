@@ -5,10 +5,7 @@ pydantic-settings
 python-dotenv
 chromadb
 httpx
-beautifulsoup4
-playwright
 sentence-transformers
 torch
 numpy
-google-generativeai
 groq

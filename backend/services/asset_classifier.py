@@ -13,7 +13,7 @@ Asset Types:
 
 import logging
 from typing import Dict, Any, List
-from backend.services.entity_resolver import CanonicalAsset, EVM_CHAINS
+from services.entity_resolver import CanonicalAsset, EVM_CHAINS
 
 logger = logging.getLogger(__name__)
 

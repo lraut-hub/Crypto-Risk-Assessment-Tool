@@ -257,7 +257,7 @@ class SignalNormalizer:
         - "Audit found (Hacken)"
         - "No audit found in indexed sources"
         """
-        from backend.services.audit_detector import AuditDetector
+        from services.audit_detector import AuditDetector
         
         # We pass only the audit_data currently. 
         # Future enhancement: pass homepage/links for real-time detection.

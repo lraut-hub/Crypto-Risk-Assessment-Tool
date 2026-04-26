@@ -17,7 +17,7 @@ CoinGecko Integration: Free endpoints only, no API key required.
 import re
 import logging
 from typing import Optional, Dict, Any
-from backend.services.coingecko_service import CoinGeckoService
+from services.coingecko_service import CoinGeckoService
 
 logger = logging.getLogger(__name__)
 

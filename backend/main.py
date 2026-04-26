@@ -13,7 +13,7 @@ import os
 import uuid
 import logging
 from dotenv import load_dotenv
-from backend.services.rag_service import RAGService
+from services.rag_service import RAGService
 from pydantic import BaseModel, Field
 from typing import Optional, Dict, Any
 

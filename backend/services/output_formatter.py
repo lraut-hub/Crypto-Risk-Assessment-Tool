@@ -12,7 +12,7 @@ No category is ever omitted. All fallback values are applied before formatting.
 
 import logging
 from typing import Optional
-from backend.services.signal_normalizer import NormalizedSignals
+from services.signal_normalizer import NormalizedSignals
 
 logger = logging.getLogger(__name__)
 

@@ -18,17 +18,17 @@ import re
 from datetime import datetime
 from typing import Optional, Dict, Any, List
 
-from backend.services.query_router import QueryRouter, QueryIntent
-from backend.services.entity_resolver import EntityResolver, CanonicalAsset
-from backend.services.asset_classifier import AssetClassifier, AssetType
-from backend.services.signal_normalizer import SignalNormalizer, NormalizedSignals
-from backend.services.output_formatter import OutputFormatter
-from backend.services.post_guards import PostGuards
-from backend.services.chroma_service import ChromaService
-from backend.services.groq_service import GroqService
-from backend.services.goplus_service import GoPlusService
-from backend.utils.embeddings import BGEEmbeddings
-from backend.prompts.assistant_prompts import (
+from services.query_router import QueryRouter, QueryIntent
+from services.entity_resolver import EntityResolver, CanonicalAsset
+from services.asset_classifier import AssetClassifier, AssetType
+from services.signal_normalizer import SignalNormalizer, NormalizedSignals
+from services.output_formatter import OutputFormatter
+from services.post_guards import PostGuards
+from services.chroma_service import ChromaService
+from services.groq_service import GroqService
+from services.goplus_service import GoPlusService
+from utils.embeddings import BGEEmbeddings
+from prompts.assistant_prompts import (
     FACTS_ONLY_SYSTEM_PROMPT,
     RAG_PROMPT_TEMPLATE,
     RAG_PROMPT_NO_CONTEXT,

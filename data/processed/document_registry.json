@@ -1,0 +1,59 @@
+{
+    "last_refresh": "2026-04-23T10:33:45.571609",
+    "strategy": "full_refresh",
+    "total_entries": 5,
+    "entries": [
+        {
+            "source_url": "https://etherscan.io/token/0x0000000000000000000000000000000000000000",
+            "tags": [
+                "structural",
+                "blockchain",
+                "etherscan"
+            ],
+            "content_hash": "ef1d495faba3c068fb8b79dddcd9b132771d66e1818b1e512f2e34cd59e87437",
+            "doc_count": 1,
+            "fetch_timestamp": "2026-04-23T10:33:35.941954"
+        },
+        {
+            "source_url": "https://api.coingecko.com/api/v3",
+            "tags": [
+                "market",
+                "identity",
+                "coingecko"
+            ],
+            "content_hash": "ed7d66aa1beb4fb946f692f39602b37615bbb32bad3a3f6fe1af235df7575c21",
+            "doc_count": 1,
+            "fetch_timestamp": "2026-04-23T10:33:37.886677"
+        },
+        {
+            "source_url": "https://www.fca.org.uk/scamsmart/warning-list",
+            "tags": [
+                "regulatory",
+                "fca"
+            ],
+            "content_hash": "b3283bf184bb082f364b8537776bc6b15fce2ff9f9acb3fb11ae87da394bfd4b",
+            "doc_count": 0,
+            "fetch_timestamp": "2026-04-23T10:33:41.896803"
+        },
+        {
+            "source_url": "https://www.mas.gov.sg/investor-alert-list",
+            "tags": [
+                "regulatory",
+                "mas"
+            ],
+            "content_hash": "b3283bf184bb082f364b8537776bc6b15fce2ff9f9acb3fb11ae87da394bfd4b",
+            "doc_count": 0,
+            "fetch_timestamp": "2026-04-23T10:33:41.896803"
+        },
+        {
+            "source_url": "https://www.certik.com/projects",
+            "tags": [
+                "audit",
+                "certik"
+            ],
+            "content_hash": "f2953d2931e36d0c55640f51865f8394ebe52194765d04e521017232558f871c",
+            "doc_count": 1,
+            "fetch_timestamp": "2026-04-23T10:33:44.997515"
+        }
+    ]
+}

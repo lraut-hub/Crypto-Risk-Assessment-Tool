@@ -1,0 +1,17 @@
+{
+    "structural_applicable": false,
+    "contract_age_days": "unknown",
+    "is_new_contract": "unknown",
+    "creation_date": "unknown",
+    "total_supply": "unknown",
+    "wallet_concentration_risk": "unknown",
+    "is_listed": true,
+    "market_rank": 87,
+    "token_name_found": "\u200b\u200bStable",
+    "token_symbol_found": "STABLE",
+    "market_source": "CoinGecko",
+    "is_audited": false,
+    "audit_providers": "[]",
+    "regulatory_warning_count": 0,
+    "last_computed_at": "2026-04-23T10:33:44.997515"
+}

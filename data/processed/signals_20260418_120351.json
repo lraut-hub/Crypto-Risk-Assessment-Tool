@@ -1,0 +1,14 @@
+{
+    "total_supply": "0",
+    "wallet_concentration_risk": "unknown",
+    "is_listed": true,
+    "market_rank": 99,
+    "token_name_found": "\u200b\u200bStable",
+    "token_symbol_found": "STABLE",
+    "market_source": "CoinGecko",
+    "is_audited": false,
+    "audit_providers": "[]",
+    "regulatory_warning_count": 0,
+    "last_computed_at": "2026-04-18T12:03:50.088923",
+    "risk_score_indicator": "neutral"
+}

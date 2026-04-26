@@ -1,0 +1,24 @@
+{
+    "knowledge_base": [
+        {
+            "topic": "Rug Pull",
+            "source": "Investopedia (Synthesized)",
+            "content": "A rug pull is a malicious maneuver in the cryptocurrency industry where crypto developers abandon a project and run away with investors' funds. Rug pulls usually happen in the decentralized finance (DeFi) ecosystem, especially on decentralized exchanges (DEXs). Red flags include locked liquidity, high owner concentration, and the inability to sell tokens (honeypot)."
+        },
+        {
+            "topic": "Smart Contracts",
+            "source": "Investopedia (Synthesized)",
+            "content": "Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. The code and the agreements contained therein exist across a distributed, decentralized blockchain network. While they automate trust, bugs or intentional backdoors in the code are primary risk vectors for exploits and scams."
+        },
+        {
+            "topic": "Honeypot Scam",
+            "source": "Investopedia (Synthesized)",
+            "content": "A honeypot is a type of scam where a smart contract is designed to look attractive to users but contains hidden code that prevents anyone other than the creator from withdrawing funds. Investors can buy the token but find it impossible to sell, effectively trapping their capital forever."
+        },
+        {
+            "topic": "Liquidity Pool Risks",
+            "source": "Investopedia (Synthesized)",
+            "content": "Liquidity pools are collections of funds locked in a smart contract to facilitate trading. Risks include 'impermanent loss' for providers and 'liquidity draining' by developers. Projects where the liquidity is not locked or burned are at extremely high risk for a rug pull."
+        }
+    ]
+}

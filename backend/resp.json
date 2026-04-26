@@ -1,0 +1,14 @@
+{
+  "response": "Risk Signal Report: Bitcoin\n\n### \ud83d\udccb Asset Profile\n- **Asset ID**: bitcoin\n- **Type**: Native blockchain asset\n- **Address**: `None`\n- **Market Cap**: $1,557,384,409,740 (Rank #unknown)\n- **Exchanges**: Listed on 100 platforms\n\n### \ud83d\udd0d External Verification\n- **Audit**: Audit found (CertiK)\n- **Regulatory**: No regulatory warnings found\n\n---\n:::RISK_ACCORDION:::\n---\n\n### Explanation\nBitcoin (BTC) is a native blockchain asset with a market cap of $1,557,384,409,740 and 100 exchange listings. The asset reports no regulatory warnings and has an audit found by CertiK. Intelligence coverage for Bitcoin is high.\n\n**Source**: https://www.coingecko.com/en/coins/bitcoin\n\n**Last Updated**: 2026-04-25 10:14 UTC",
+  "risk_profile": {
+    "token_name": "Bitcoin",
+    "token_symbol": "BTC",
+    "market_cap": 1557384409740,
+    "market_cap_rank": "unknown",
+    "exchanges_count": 100,
+    "asset_type": "native_asset",
+    "contract_address": null
+  },
+  "thread_id": "e08b617a-64f4-498c-b206-677eea853fb0",
+  "version": "2.0.0"
+}

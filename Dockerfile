@@ -3,7 +3,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Install dependencies
-COPY requirements.txt .
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Create a non-root user (required by Hugging Face Spaces)
@@ -14,8 +14,8 @@ ENV HOME=/home/user \
 
 WORKDIR $HOME/app
 
-# Copy the application
-COPY --chown=user . $HOME/app
+# Copy the backend code into the app directory
+COPY --chown=user backend/ $HOME/app/
 
 # Hugging Face Spaces uses port 7860 by default
 EXPOSE 7860

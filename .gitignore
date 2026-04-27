@@ -36,6 +36,7 @@ data/chromadb/
 backend_log.txt
 goplus_test.log
 uncraft_test.log
+Docs/project_workflow.md
 
 # Node
 node_modules/
